@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./styles.css">
   <title>Matches Fashion Clone using Tailwind CSS</title>
 </head>
 
@@ -50,19 +51,141 @@
   <!-- HOMEPAGE HERO -->
   <div class="border-solid border-black border-t-4 flex">
     <!-- MENS HERO -->
-    <div><img src="./assets/men/austin-wade-d2s8NQ6WD24-unsplash.jpg" alt="" class="h-64 w-full">
-      <p class="border-solid border-emerald-400 border-b-4 py-2 font-sans uppercase">shop men's</p>
+    <div class="w-2/4 hero-img-ctn relative">
+      <img src="./assets/men/austin-wade-d2s8NQ6WD24-unsplash.jpg" alt="" class="object-cover object-top	h-full w-full">
     </div>
+    <p
+      class="border-solid border-border-white-400 border-b-4 py-1 font-sans uppercase absolute top-1/2	right-3/4 text-neutral-100">
+      shop men's
+    </p>
     <!-- WOMENS HERO -->
-    <div>
+    <div class="w-2/4 hero-img-ctn relative">
       <img src="./assets/women/aiony-haust-K0DxxljcRv0-unsplash.jpg" alt=""
-        class="h-72 w-full object-cover	object-center">
-      <p class="border-solid border-emerald-400 border-b-4 py-2 font-sans uppercase">shop
-        women's</p>
+        class="object-cover object-top h-full w-full">
+    </div>
+    <p
+      class="border-solid border-white-400 border-b-4 py-1 font-sans uppercase absolute top-1/2	left-3/4 text-neutral-100">
+      shop
+      women's</p>
+  </div>
+  <!-- CATEGORY WRAPPER -->
+  <div class="mt-10 text-center">
+    <h2 class="font-sans uppercase">shop by category</h2>
+    <!-- MENS CATEGORY WRAPPER-->
+    <div class="flex flex-wrap mt-10 text-center">
+      <!-- MENS ITEM SECTION -->
+      <!-- ONE -->
+      <div>
+        <div class="px-4"><img src="./assets/men/fabio-scaletta-cYSRncVxE44-unsplash.jpg" alt=""
+            class="object-cover h-48 w-96">
+          <p class="font-sans uppercase">men's just in</p>
+        </div>
+      </div>
+      <!-- TWO -->
+      <div class="px-4"><img src="./assets/men/fabio-scaletta-cYSRncVxE44-unsplash.jpg" alt=""
+          class=" object-left-top	 object-cover h-48 w-96">
+        <p class="font-sans uppercase">men's just in</p>
+      </div>
+      <!-- THREE -->
+      <div class="px-4"><img src="./assets/men/fabio-scaletta-cYSRncVxE44-unsplash.jpg" alt=""
+          class=" object-left-top	 object-cover h-48 w-96">
+        <p class="font-sans uppercase">men's just in</p>
+      </div>
+      <!-- FOUR -->
+      <div class="px-4"><img src="./assets/men/fabio-scaletta-cYSRncVxE44-unsplash.jpg" alt=""
+          class=" object-left-top	 object-cover h-48 w-96">
+        <p class="font-sans uppercase">men's just in</p>
+      </div>
+
+      <!-- FIVE -->
+      <div class="px-4"><img src="./assets/men/fabio-scaletta-cYSRncVxE44-unsplash.jpg" alt=""
+          class=" object-left-top	 object-cover h-48 w-96">
+        <p class="font-sans uppercase">men's just in</p>
+      </div>
+
+      <!-- SIX -->
+      <div class="px-4"><img src="./assets/men/fabio-scaletta-cYSRncVxE44-unsplash.jpg" alt=""
+          class=" object-left-top	 object-cover h-48 w-96">
+        <p class="font-sans uppercase">men's just in</p>
+      </div>
+
+      <!-- SEVEN -->
+      <div class="px-4"><img src="./assets/men/fabio-scaletta-cYSRncVxE44-unsplash.jpg" alt=""
+          class=" object-left-top	 object-cover h-48 w-96">
+        <p class="font-sans uppercase">men's just in</p>
+      </div>
+
+      <!-- EIGHT -->
+      <div class="px-4"><img src="./assets/men/fabio-scaletta-cYSRncVxE44-unsplash.jpg" alt=""
+          class=" object-left-top	 object-cover h-48 w-96">
+        <p class="font-sans uppercase">men's just in</p>
+      </div>
+
+      <!-- WOMENS SECTION -->
+      <div class="flex flex-wrap">
+        <!-- ONE -->
+        <div>
+          <div class="px-4"><img src="./assets/women/dom-hill-nimElTcTNyY-unsplash.jpg" alt=""
+              class="object-cover object-left-top h-48 w-96">
+            <p class="font-sans uppercase">men's just in</p>
+          </div>
+        </div>
+        <!-- TWO -->
+        <div>
+          <div class="px-4"><img src="./assets/women/dom-hill-nimElTcTNyY-unsplash.jpg" alt=""
+              class="object-cover object-left-top h-48 w-96">
+            <p class="font-sans uppercase">men's just in</p>
+          </div>
+        </div>
+        <!-- THREE -->
+        <div>
+          <div class="px-4"><img src="./assets/women/dom-hill-nimElTcTNyY-unsplash.jpg" alt=""
+              class="object-cover object-left-top h-48 w-96">
+            <p class="font-sans uppercase">men's just in</p>
+          </div>
+        </div>
+        <!-- FOUR -->
+        <div>
+          <div class="px-4"><img src="./assets/women/dom-hill-nimElTcTNyY-unsplash.jpg" alt=""
+              class="object-cover object-left-top h-48 w-96">
+            <p class="font-sans uppercase">men's just in</p>
+          </div>
+        </div>
+
+        <!-- FIVE -->
+        <div>
+          <div class="px-4"><img src="./assets/women/dom-hill-nimElTcTNyY-unsplash.jpg" alt=""
+              class="object-cover object-left-top h-48 w-96">
+            <p class="font-sans uppercase">men's just in</p>
+          </div>
+        </div>
+        <!-- SIX -->
+        <div>
+          <div class="px-4"><img src="./assets/women/dom-hill-nimElTcTNyY-unsplash.jpg" alt=""
+              class="object-cover object-left-top h-48 w-96">
+            <p class="font-sans uppercase">men's just in</p>
+          </div>
+        </div>
+
+        <!-- SEVEN -->
+        <div>
+          <div class="px-4"><img src="./assets/women/dom-hill-nimElTcTNyY-unsplash.jpg" alt=""
+              class="object-cover object-left-top h-48 w-96">
+            <p class="font-sans uppercase">men's just in</p>
+          </div>
+        </div>
+
+        <!-- EIGHT -->
+        <div>
+          <div class="px-4"><img src="./assets/women/dom-hill-nimElTcTNyY-unsplash.jpg" alt=""
+              class="object-cover object-left-top h-48 w-96">
+            <p class="font-sans uppercase">men's just in</p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-  <!-- CATEGORY -->
-  <div></div>
+
   <!-- FOOTER -->
   <footer></footer>
 </body>
